@@ -46,6 +46,20 @@ nav img {
   align-items: center;
   color: black;
 }
+.apresentacao img{
+  padding:10rem 0;
+  width:9rem;
+  animation: go-back 1s infinite alternate;
+}
+
+@keyframes go-back {
+  0% {
+      transform: translatey(100px);
+  }
+  100% {
+      transform: translatey(0);
+  }
+}
 .apresentacao-text {
   font-size: 35px;
   text-align:center;
