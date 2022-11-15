@@ -34,20 +34,20 @@ nav img {
   margin: 20px;
 }
 
-.about {
+.apresentacao {
   height: 1000px;
-  background-color: #b74e67;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: white;
-  text-align:center;
+  color: black;
 }
-.about-text {
+.apresentacao-text {
   font-size: 35px;
+  text-align:center;
+
 }
-.about-text-02 {
+.apresentacao-text-02 {
   font-size: 23px;
 }
 .projects{
@@ -61,8 +61,8 @@ nav img {
     text-align:center;
     padding-top:60px;
     color:white;
-    text-decoration:underline white;
-    font-size:20px;
+    
+    font-size:30px;
 }
 .projects-container {
     display: grid;
@@ -120,4 +120,20 @@ nav img {
 #projects h2, .about h2, #contact h2 {
     font-size: 3.5rem;
     text-align: center;
+}
+
+.modificacao{
+  display: flex;
+  flex-direction: column;
+  margin: 0 20%;
+  padding: 50px 0;
+}
+  
+
+.mod-text{
+  margin:20px 0;
+}
+.mod-text p{
+  font-size: 1.5rem;
+  line-height: 1.8;
 }
