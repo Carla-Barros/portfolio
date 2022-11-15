@@ -42,6 +42,7 @@ nav img {
   justify-content: center;
   align-items: center;
   color: white;
+  text-align:center;
 }
 .about-text {
   font-size: 35px;
@@ -81,7 +82,7 @@ nav img {
     flex-direction: column;
     align-items: center;
     width: fit-content;
-    background-color: #fafafa;
+    background-color: #f3eae8;
     border-radius: 0 0 8px 8px;
     box-shadow: 0 0 15px 0 rgba(0,0,0,0.15);
     cursor: pointer;
@@ -101,14 +102,14 @@ nav img {
 .projects .project-tile a p {
     padding: 0;
     margin: 25px 0;
+    color:black;
+    font-size:60px;
 }
 
-#fb-img {
-    object-fit: contain;
-    background-color: #f0f2f5;
-}
+
 #projects a {
     text-align: center;
+    text-decoration:none;
     padding: 0;
 }
 
