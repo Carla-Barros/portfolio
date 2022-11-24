@@ -10,7 +10,7 @@ body{
   background-color: #fafafa;
 }
 nav {
-  background-color: #ff9fa6;
+  background-color: black;
   width:100%;
   height: 100px;
   display: flex;
@@ -18,7 +18,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   position:fixed;
-  z-index:10;
+  z-index:10 ;
 }
 
 nav img {
@@ -52,7 +52,7 @@ nav img {
   width:9rem;
   animation: go-back 1s infinite alternate;
 }
-
+//animação seta para baixo
 @keyframes go-back {
   0% {
       transform: translatey(100px);
@@ -139,7 +139,7 @@ nav img {
 
 #projects h2, .about h2, #contact h2 {
     font-size: 3.5rem;
-    text-align: center;
+    text-align: justify-all;
 }
 
 .modificacao{
@@ -190,6 +190,7 @@ h2{
 .contato-card a img{
   width:100px;
 }
+
 footer{
   display:flex;
   align-items:center;
@@ -197,9 +198,12 @@ footer{
   height:50px;
 }
 
-@media (max-width: 600px)
+@media (max-width: 748px)
 {
  .projects{
   height:2000px;
+ }
+ .mod-text p{
+  text-align:justify;
  }
 }
